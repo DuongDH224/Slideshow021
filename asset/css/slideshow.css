@@ -1,0 +1,32 @@
+.slider {
+    position: relative;
+    margin-top: 46px;
+}
+/* #button a i {
+    color: #fff;
+    font-size: 40px;
+} */
+
+.button .btn-next {
+    position: absolute;
+    top: 50%;
+    left: 24px;
+}
+.button .btn-back {
+    position: absolute;
+    top: 50%;
+    right: 24px;
+}
+.slider .sub-text {
+    position: absolute;
+    bottom: 48px;
+    color: #fff;
+    left: 50%;
+    transform:  translate(-50%);
+    text-align: center;
+}
+.btn-next i,
+.btn-back i {
+    font-size: 44px;
+    color: #fff;
+}
